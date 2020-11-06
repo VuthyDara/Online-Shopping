@@ -49,3 +49,53 @@
     resize: vertical;
     margin-top: 5%;
 }
+.container2{
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    height: 130px;
+    margin-top: 2%;
+}
+.box{
+    display: flex;
+    width: 30%;
+    position: relative;
+    border: 2px solid;
+    background-color: #ea9999;
+}
+.box2{
+    display: flex;
+    width: 30%;
+    position: relative;
+    border: 2px solid;
+    background-color: #f6b26b;
+}
+.box3{
+    display: flex;
+    width: 30%;
+    position: relative;
+    border: 2px solid;
+    background-color: #c27ba0;
+}
+.title{
+    font-size: 2vw;
+    font-weight: bold;
+}
+.slogan{
+    font-size: 1.5vw;
+}
+.button{
+    font-size: 1.5vw;
+    box-shadow: 2px 3px;
+    margin-top: 5%;
+}
+.column1{
+    position: absolute;
+    width: 75%;
+    margin: 1%;
+}
+.column2{
+    position: absolute;
+    top: 20%;
+    left: 75%;
+}
