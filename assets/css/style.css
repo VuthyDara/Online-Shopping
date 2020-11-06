@@ -1,3 +1,51 @@
 .container{
-    background-image: url(../images/);
+    position: relative;
+}
+#shop{
+    color: #009e0f;
+}
+#top_left{
+    position: absolute;
+    top: 3%;
+    left: 3%;
+    font-weight: bold;
+    font-size: 3vw;
+}
+#top_right{
+    position: absolute;
+    top: 3%;
+    right: 3%;
+}
+#center{
+    position: absolute;
+    top: 40%;
+    text-align: center;
+    width: 100%;
+    height: 40%;
+}
+#help{
+    font-weight: bold;
+    font-size: 2vw;
+}
+#join{
+    font-size: 2vw;
+    border: 2px solid black;
+    box-shadow: 2px 3px;
+}
+.center1{
+    font-weight: bold;
+    font-size: 5vw;
+}
+.center2{
+    font-size: 2vw;
+    color: grey;
+}
+.center3{
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    box-sizing: border-box;
+    resize: vertical;
+    margin-top: 5%;
 }
