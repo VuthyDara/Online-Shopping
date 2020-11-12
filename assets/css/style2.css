@@ -1,0 +1,75 @@
+.top_row{
+    border: 1px solid black;
+    display: flex;
+    padding: 1%;
+}
+.left_box{
+    border-right: 1px solid black;
+    position: relative;
+    width: 40%;
+    padding: 1%;
+}
+.left_box_bottom{
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav{
+    border: 2px solid lightgray;
+    width: 25%;
+}
+.right_box{
+    width: 60%;
+    padding-left: 5%;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+    font-size: 2vw;
+    font-weight: bold;
+}
+.button2{
+    width: 20%;
+    box-shadow: 2px 3px;
+    margin-top: 20%;
+}
+.tags{
+    display: flex;
+    margin-top: 5%;
+}
+.tag{
+    background-color: lightgray;
+    margin-right: 5%;
+    padding: 2%;
+    border-radius: 10px;
+}
+.bottom_row{
+    border: 1px solid black;
+    display: flex;
+    padding: 1%;
+}
+.comment{
+    border: 2px solid gray;
+    padding-left: 2%;
+}
+.img2{
+    vertical-align: middle;
+}
+.items2{
+    display: inline;
+    vertical-align: middle;
+}
+.input{
+    width: 99%;
+    height: 200px;
+    border: 2px solid;
+    text-align: start;
+}
+.input1{
+    float: right;
+    margin-left: 1%;
+    margin-top: 1%;
+    box-shadow: 2px 3px;
+    border: 2px solid;
+}
+
+
