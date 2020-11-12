@@ -52,9 +52,9 @@
 .container2{
     display: flex;
     position: relative;
-    justify-content: space-around;
+    justify-content: space-evenly;
     height: 130px;
-    margin-top: 2%;
+    margin: 2% 0;
 }
 .box{
     display: flex;
@@ -98,4 +98,52 @@
     position: absolute;
     top: 20%;
     left: 75%;
+}
+.container3{
+    display: flex;
+}
+.column_left{
+    width: 35%;
+    font-size: 2vw;
+}
+.img{
+    vertical-align: middle;
+    opacity: 0.5;
+}
+.items{
+    display: inline;
+    vertical-align: middle;
+    opacity: 0.5;
+}
+.img1{
+    vertical-align: middle;
+}
+.items1{
+    display: inline;
+    vertical-align: middle;
+}
+.clothes{
+    display: flex;
+}
+.blocks{
+    border: 2px solid black;
+    margin: 1%;
+    position: relative;
+    padding-left: 1%;
+    padding-bottom: 1%;
+}
+.discount{
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    background-color: orange;
+    padding: 2%;
+    border-radius: 25%;
+}
+.button1{
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+    width: 30%;
+    box-shadow: 2px 3px;
 }
