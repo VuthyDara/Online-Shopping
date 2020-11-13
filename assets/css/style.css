@@ -40,7 +40,7 @@ body{
 }
 .motto{
     font-size: 14px;
-    color: grey;
+    color: #cccccc;
 }
 .search_bar{
     font-family: cursive;
@@ -161,6 +161,7 @@ body{
 .cart_button{
     position: absolute;
     margin-left: 100px;
+    border: 2px solid black;
     width: 60px;
     box-shadow: 3px 3px;
 }
