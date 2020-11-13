@@ -1,155 +1,172 @@
-.container{
+body{
+    width: 810px;
+    margin: auto;
+    font-family: cursive;
+}
+.navigation_section{
     position: relative;
+}
+.shop_name{
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    font-weight: bold;
+    font-size: 35px;
 }
 #shop{
     color: #009e0f;
 }
-#top_left{
+.service{
     position: absolute;
-    top: 3%;
-    left: 3%;
+    top: 20px;
+    right: 40px;
     font-weight: bold;
-    font-size: 3vw;
+    font-size: 15px;
 }
-#top_right{
-    position: absolute;
-    top: 3%;
-    right: 3%;
+#join{
+    border: 2px solid black;
+    box-shadow: 2px 3px;
 }
-#center{
+.feature_section{
     position: absolute;
-    top: 40%;
+    top: 190px;
     text-align: center;
     width: 100%;
     height: 40%;
 }
-#help{
+.slogan{
     font-weight: bold;
-    font-size: 2vw;
+    font-size: 35px;
 }
-#join{
-    font-size: 2vw;
-    border: 2px solid black;
-    box-shadow: 2px 3px;
-}
-.center1{
-    font-weight: bold;
-    font-size: 5vw;
-}
-.center2{
-    font-size: 2vw;
+.motto{
+    font-size: 14px;
     color: grey;
 }
-.center3{
-    width: 50%;
-    padding: 10px;
-    border: 1px solid #ccc;
+.search_bar{
+    font-family: cursive;
+    width: 45%;
+    padding: 5px;
+    border: 2px solid #ccc;
     border-radius: 25px;
     box-sizing: border-box;
     resize: vertical;
     margin-top: 5%;
 }
-.container2{
+.promotion_section{
     display: flex;
-    position: relative;
     justify-content: space-evenly;
+    position: relative;
     height: 130px;
-    margin: 2% 0;
+    margin: 25px 0px;
 }
 .box{
     display: flex;
-    width: 30%;
+    width: 240px;
     position: relative;
     border: 2px solid;
+}
+.coupon{
     background-color: #ea9999;
 }
-.box2{
-    display: flex;
-    width: 30%;
-    position: relative;
-    border: 2px solid;
+.delivery{
     background-color: #f6b26b;
 }
-.box3{
-    display: flex;
-    width: 30%;
-    position: relative;
-    border: 2px solid;
+.voucher{
     background-color: #c27ba0;
 }
-.title{
-    font-size: 2vw;
+.promotion_text{
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 5px;
+}
+.promotion_title{
+    font-size: 20px;
+    color: white;
     font-weight: bold;
 }
-.slogan{
-    font-size: 1.5vw;
+.promotion_slogan{
+    font-size: 10px;
+    color: white;
 }
-.button{
-    font-size: 1.5vw;
-    box-shadow: 2px 3px;
-    margin-top: 5%;
+.promotion_button{
+    font-family: cursive;
+    font-size: 12px;
+    border: 2px black solid;
+    box-shadow: 3px 3px;
+    margin-top: 25px;
 }
-.column1{
+.promotion_icon{
     position: absolute;
-    width: 75%;
-    margin: 1%;
+    top: 30px;
+    margin-left: 170px;
+    margin-right: 5px;
 }
-.column2{
-    position: absolute;
-    top: 20%;
-    left: 75%;
-}
-.container3{
+.product_section{
     display: flex;
 }
-.column_left{
-    width: 35%;
-    font-size: 2vw;
+.product_category_section{
+    width: 310px;
+    font-size: 15px;
+    line-height: 50px;
 }
-.img{
+.category_icon{
     vertical-align: middle;
     opacity: 0.5;
 }
-.items{
+.category_name{
     display: inline;
     vertical-align: middle;
     opacity: 0.5;
 }
-.img1{
+.category_icon_selected{
     vertical-align: middle;
 }
-.items1{
+.category_name_selected{
     display: inline;
     vertical-align: middle;
 }
-.clothes{
+.product_feature_section{
     display: flex;
 }
-.blocks{
-    border: 2px solid black;
-    margin: 1%;
+.product_box{
+    border: 3px solid black;
+    width: 200px;
+    margin-right: 20px;
+    margin-bottom: 30px;
     position: relative;
     padding-left: 1%;
     padding-bottom: 1%;
 }
-.discount{
+.product_description{
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+.product_discount{
     position: absolute;
-    right: 5%;
-    top: 5%;
+    font-size: 13px;
+    margin-left: 150px;
+    margin-top: 10px;
     background-color: orange;
-    padding: 2%;
-    border-radius: 25%;
+    padding: 5px;
+    border-radius: 10px;
 }
-.button1{
+.original_price{
+    color: red;
+    font-size: 13px;
+}
+.price{
+    color: lightgreen;
+    font-size: 13px;
+}
+.cart_button{
     position: absolute;
-    right: 5%;
-    bottom: 5%;
-    width: 30%;
-    box-shadow: 2px 3px;
+    margin-left: 100px;
+    width: 60px;
+    box-shadow: 3px 3px;
 }
-.blocks img{
+.clothes_image{
     transition: 0.5s all ease-in-out;
 }
-.blocks:hover img{
-    transform: scale(1.5);
+.product_box:hover .clothes_image{
+    transform: scale(1.3);
 }
